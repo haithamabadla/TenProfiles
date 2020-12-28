@@ -12,7 +12,7 @@ Steps to enhance model:
 - Use different methods / techniques to deal with unbalanced data
 - Use more samples
 - Shuffle the dataset before spliting it.
-- Use default of increase the max_features parameter in the TF-IDF. Current value is 7000.
+- Use default or increase the max_features parameter in the TF-IDF. Current value is 7000.
 - Use more ML algorithms that are suitable for multiclass classification problem. I recommend SVM
 - Increase the number of iteration in RandomizedSearchCV
 - The last 3 suggestions are computationally expensive, required lots of RAM and it takes time to get results back.
